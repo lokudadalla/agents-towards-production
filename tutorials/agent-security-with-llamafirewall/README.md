@@ -104,7 +104,7 @@ LlamaFirewall uses HuggingFace models that require access permissions:
 5. Run `llamafirewall configure` for:
     1. Check if required models are available locally
     2. Help you download models from HuggingFace if they are not available
-    3. Check if your environment has the required api key for certain scanners 
+    3. Check if your environment has the required API key for certain scanners 
 
 **Note:** This tutorial uses HuggingFace models, which will be downloaded to `~/.cache/huggingface`.
 

@@ -680,7 +680,5 @@ In this tutorial, we reviewed the foundation of Docker. Docker solves a core pro
 
 This is the tip of the iceberg of what Docker does, and hopefully, it gives you an idea of what you can do with Docker and how to start with it.
 
-
 ---
 This tutorial was written by [Rami Krispin](https://www.linkedin.com/in/rami-krispin/)
-

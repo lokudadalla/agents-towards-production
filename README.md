@@ -27,28 +27,14 @@ Whether you're just starting out or refining your deployment stack, this repo gi
 
 <!-- row 1 -->
 <p align="center">
-  <img src="assets/repos_images/sponsors_logos/trimmed_padded/trimmed_padded_langchain.png"  alt="LangChain"  height="50" style="pointer-events: none;">&nbsp;&nbsp;&nbsp;
-  <img src="assets/repos_images/sponsors_logos/trimmed_padded/trimmed_padded_Redis.png"      alt="Redis"      height="45" style="pointer-events: none;">&nbsp;&nbsp;&nbsp;
-  <img src="assets/repos_images/sponsors_logos/trimmed_padded/trimmed_padded_tavily.png"     alt="Tavily"     height="50" style="pointer-events: none;">
+  <a href="tutorials/LangGraph-agent"><img src="assets/repos_images/sponsors_logos/trimmed_padded/trimmed_padded_langchain.png"  alt="LangChain"  height="50"></a>&nbsp;&nbsp;&nbsp;
+  <a href="tutorials/agent-memory-with-redis"><img src="assets/repos_images/sponsors_logos/trimmed_padded/trimmed_padded_Redis.png"      alt="Redis"      height="45"></a>&nbsp;&nbsp;&nbsp;
+  <a href="tutorials/agent-with-tavily-web-access"><img src="assets/repos_images/sponsors_logos/trimmed_padded/trimmed_padded_tavily.png"     alt="Tavily"     height="50"></a>
 </p>
 
 <!-- row 2 -->
 <p align="center">
-  <img src="assets/repos_images/sponsors_logos/trimmed_padded/trimmed_padded_runpod.png" alt="RunPod" height="40" style="pointer-events: none; display: inline-block; vertical-align: middle;">&nbsp;&nbsp;&nbsp;
-
-  <span style="display: inline-block; vertical-align: middle;">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="assets/repos_images/sponsors_logos/trimmed_padded/trimmed_padded_xpander_dark.png">
-      <img
-        src="assets/repos_images/sponsors_logos/trimmed_padded/trimmed_padded_xpander_light.png"
-        alt="xpander.ai Logo"
-        height="40"
-        style="pointer-events: none;"
-      >
-    </picture>
-  </span>&nbsp;&nbsp;&nbsp;
-
-  <img src="assets/repos_images/sponsors_logos/trimmed_padded/trimmed_padded_qualifire.png" alt="Qualifire" height="50" style="pointer-events: none; display: inline-block; vertical-align: middle;">
+  <a href="tutorials/runpod-gpu-deploy"><img src="assets/repos_images/sponsors_logos/trimmed_padded/trimmed_padded_runpod.png" alt="RunPod" height="40" style="display: inline-block; vertical-align: middle;"></a>&nbsp;&nbsp;&nbsp;<a href="tutorials/agentic-applications-by-xpander.ai" style="display: inline-block; vertical-align: middle;"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/repos_images/sponsors_logos/trimmed_padded/trimmed_padded_xpander_dark.png"><img src="assets/repos_images/sponsors_logos/trimmed_padded/trimmed_padded_xpander_light.png" alt="xpander.ai Logo" height="40"></picture></a>&nbsp;&nbsp;&nbsp;<a href="tutorials/agent-observability-with-qualifire"><img src="assets/repos_images/sponsors_logos/trimmed_padded/trimmed_padded_qualifire.png" alt="Qualifire" height="50" style="display: inline-block; vertical-align: middle;"></a>
 </p>
 
 
@@ -99,17 +85,19 @@ All knowledge is delivered through runnable tutorials covering orchestration, me
 |---|---|
 | **Tutorial-first learning** | Every topic comes with a practical walkthrough you can run locally |
 | **Full lifecycle coverage** | All the capabilities required to take agents from prototype to production |
-| 🔄 **Orchestration** | Design multi-tool, memory-aware workflows and agent-to-agent messaging |
-| 🔌 **Tool Integration** | Connect agents to databases, web data, and external APIs |
-| 🔍 **Observability** | Add tracing, monitoring, and debugging hooks |
-| 🚀 **Deployment** | Ship to containers, GPU clusters, and on-prem servers |
+| 🚀 **GPU Deployment** | Deploy to scalable GPU infrastructure for high-performance agent workloads |
+| 🔍 **Real-Time Monitoring** | Gain end-to-end tracing, monitoring, and debugging for agent workflows |
+| 🔌 **Tool Integration** | Connect agents to real-time web data, databases, and external APIs |
 | 🧠 **Memory** | Implement both short- and long-term stores with semantic search |
-| 🖥️ **UI & Frontend** | Build chat or dashboard front-ends in minutes |
+| 🔄 **Orchestration** | Design multi-tool, memory-aware workflows and agent-to-agent messaging |
+| 🔒 **Security** | Apply real-time guardrails and injection defenses |
 | 🧩 **Agent Frameworks** | Create stateful graphs, expose agents as REST endpoints, and package reusable tools |
+| 🚀 **Deployment** | Ship to containers and on-prem servers with containerization patterns |
 | 🛠️ **Model Customization** | Fine-tune language models for specialized agent behavior and domain expertise |
 | 👥 **Multi-agent Coordination** | Enable message passing and shared planning |
-| 🔒 **Security** | Apply real-time guardrails and injection defenses |
+| 🔍 **Tracing & Debugging** | Add comprehensive observability to debug and improve agent performance |
 | 📊 **Evaluation** | Automate behavioral testing and metric tracking |
+| 🖥️ **UI & Frontend** | Build chat or dashboard front-ends in minutes |
 
 
 
@@ -117,7 +105,7 @@ All knowledge is delivered through runnable tutorials covering orchestration, me
 
 ## 📚 Tutorials
 
-### 🔄 Orchestration
+### 🚀 GPU Deployment
 
 <table width="100%">
   <tr style="background-color:#f8f9fa">
@@ -126,10 +114,27 @@ All knowledge is delivered through runnable tutorials covering orchestration, me
     <th width="20%">View</th>
   </tr>
   <tr>
-    <td>Agent Orchestration: Multi-Tool, Memory & Messaging Workflows (xpander.ai)</td>
-    <td>Learn to orchestrate tools, memory, multi-user state, and agent-to-agent messaging for production-ready AI agents. Example: Automate meeting recording and reporting workflows.</td>
+    <td>Scalable GPU Deployment for AI Agents (Runpod)</td>
+    <td>Deploy AI agents on scalable GPU infrastructure. Learn to set up cost-effective, high-performance environments for demanding agent workloads.</td>
     <td align="center">
-      <a href="https://github.com/NirDiamant/agents-towards-production/tree/main/tutorials/agentic-applications-by-xpander.ai"><img src="https://img.shields.io/badge/GitHub-View-blue" height="20"></a>
+      <a href="https://github.com/NirDiamant/agents-towards-production/tree/main/tutorials/runpod-gpu-deploy"><img src="https://img.shields.io/badge/GitHub-View-blue" height="20"></a>
+    </td>
+  </tr>
+</table>
+
+### 🔍 Real-Time Monitoring
+
+<table width="100%">
+  <tr style="background-color:#f8f9fa">
+    <th width="30%">Tutorial</th>
+    <th width="50%">Description</th>
+    <th width="20%">View</th>
+  </tr>
+  <tr>
+    <td>Agent Observability: Tracing, Monitoring & Debugging (Qualifire)</td>
+    <td>Gain end-to-end tracing, real-time monitoring, and debugging for agent workflows. Learn to capture logs, traces, and quality metrics for troubleshooting and optimization.</td>
+    <td align="center">
+      <a href="https://github.com/NirDiamant/agents-towards-production/tree/main/tutorials/agent-observability-with-qualifire"><img src="https://img.shields.io/badge/GitHub-View-blue" height="20"></a>
     </td>
   </tr>
 </table>
@@ -151,61 +156,6 @@ All knowledge is delivered through runnable tutorials covering orchestration, me
   </tr>
 </table>
 
-### 🔍 Observability
-
-<table width="100%">
-  <tr style="background-color:#f8f9fa">
-    <th width="30%">Tutorial</th>
-    <th width="50%">Description</th>
-    <th width="20%">View</th>
-  </tr>
-  <tr>
-    <td>Agent Observability: Tracing, Monitoring & Debugging (Qualifire)</td>
-    <td>Gain end-to-end tracing, real-time monitoring, and debugging for agent workflows. Learn to capture logs, traces, and quality metrics for troubleshooting and optimization.</td>
-    <td align="center">
-      <a href="https://github.com/NirDiamant/agents-towards-production/tree/main/tutorials/agent-observability-with-qualifire"><img src="https://img.shields.io/badge/GitHub-View-blue" height="20"></a>
-    </td>
-  </tr>
-  <tr>
-    <td>Agent Tracing & Debugging with LangSmith</td>
-    <td>Add comprehensive observability to AI systems. Capture detailed traces, decision points, and timing data to debug, monitor, and systematically improve agent performance.</td>
-    <td align="center">
-      <a href="https://github.com/NirDiamant/agents-towards-production/tree/main/tutorials/tracing-with-langsmith"><img src="https://img.shields.io/badge/GitHub-View-blue" height="20"></a>
-    </td>
-  </tr>
-</table>
-
-### 🚀 Deployment
-
-<table width="100%">
-  <tr style="background-color:#f8f9fa">
-    <th width="30%">Tutorial</th>
-    <th width="50%">Description</th>
-    <th width="20%">View</th>
-  </tr>
-  <tr>
-    <td>Scalable GPU Deployment for AI Agents (Runpod)</td>
-    <td>Deploy AI agents on scalable GPU infrastructure. Learn to set up cost-effective, high-performance environments for demanding agent workloads.</td>
-    <td align="center">
-      <a href="https://github.com/NirDiamant/agents-towards-production/tree/main/tutorials/runpod-gpu-deploy"><img src="https://img.shields.io/badge/GitHub-View-blue" height="20"></a>
-    </td>
-  </tr>
-  <tr>
-    <td>Containerizing Agents with Docker</td>
-    <td>Containerize agents for portability and scalability. Learn foundational patterns for running agents in containers across environments.</td>
-    <td align="center">
-      <a href="https://github.com/NirDiamant/agents-towards-production/tree/main/tutorials/docker-intro"><img src="https://img.shields.io/badge/GitHub-View-blue" height="20"></a>
-    </td>
-  </tr>
-  <tr>
-    <td>On-Prem LLM Deployment with Ollama</td>
-    <td>Run and interact with large language models locally. Replace cloud APIs with on-prem models for privacy, cost control, and low-latency agent workflows.</td>
-    <td align="center">
-      <a href="https://github.com/NirDiamant/agents-towards-production/tree/main/tutorials/on-prem-llm-ollama"><img src="https://img.shields.io/badge/GitHub-View-blue" height="20"></a>
-    </td>
-  </tr>
-</table>
-
 ### 🧠 Memory
 
 <table width="100%">
@@ -223,7 +173,7 @@ All knowledge is delivered through runnable tutorials covering orchestration, me
   </tr>
 </table>
 
-### 🖥️ UI & Frontend
+### 🔄 Orchestration
 
 <table width="100%">
   <tr style="background-color:#f8f9fa">
@@ -232,10 +182,41 @@ All knowledge is delivered through runnable tutorials covering orchestration, me
     <th width="20%">View</th>
   </tr>
   <tr>
-    <td>Building a Chatbot UI with Streamlit</td>
-    <td>Build a beginner-friendly chatbot web app with a chat interface, file upload, and session state for interactive agent demos.</td>
+    <td>Agent Orchestration: Multi-Tool, Memory & Messaging Workflows (xpander.ai)</td>
+    <td>Learn to orchestrate tools, memory, multi-user state, and agent-to-agent messaging for production-ready AI agents. Example: Automate meeting recording and reporting workflows.</td>
     <td align="center">
-      <a href="https://github.com/NirDiamant/agents-towards-production/tree/main/tutorials/agent-with-streamlit-ui"><img src="https://img.shields.io/badge/GitHub-View-blue" height="20"></a>
+      <a href="https://github.com/NirDiamant/agents-towards-production/tree/main/tutorials/agentic-applications-by-xpander.ai"><img src="https://img.shields.io/badge/GitHub-View-blue" height="20"></a>
+    </td>
+  </tr>
+</table>
+
+### 🔒 Security
+
+<table width="100%">
+  <tr style="background-color:#f8f9fa">
+    <th width="30%">Tutorial</th>
+    <th width="50%">Description</th>
+    <th width="20%">View</th>
+  </tr>
+  <tr>
+    <td>Real-Time Security Guardrails for Agents (Qualifire)</td>
+    <td>Block prompt injections, hallucinations, unsafe content, and enforce security policies in real time. Learn to implement robust guardrails for agent safety.</td>
+    <td align="center">
+      <a href="https://github.com/NirDiamant/agents-towards-production/tree/main/tutorials/agent-security-with-qualifire"><img src="https://img.shields.io/badge/GitHub-View-blue" height="20"></a>
+    </td>
+  </tr>
+  <tr>
+    <td>Comprehensive Agent Security (LlamaFirewall)</td>
+    <td>Apply comprehensive input, output, and tool security guardrails for agents. Covers prompt injection, behavior alignment, and tool access control.</td>
+    <td align="center">
+      <a href="https://github.com/NirDiamant/agents-towards-production/tree/main/tutorials/agent-security-with-llamafirewall"><img src="https://img.shields.io/badge/GitHub-View-blue" height="20"></a>
+    </td>
+  </tr>
+  <tr>
+    <td>Hands-On Agent Security Evaluation (Apex)</td>
+    <td>Hands-on prompt injection attacks, defenses, and automated security testing for AI agents.</td>
+    <td align="center">
+      <a href="tutorials/agent-security-apex"><img src="https://img.shields.io/badge/GitHub-View-blue" height="20"></a>
     </td>
   </tr>
 </table>
@@ -267,6 +248,30 @@ All knowledge is delivered through runnable tutorials covering orchestration, me
     <td>Create and deploy agents as performant APIs, supporting both synchronous and streaming endpoints.</td>
     <td align="center">
       <a href="https://github.com/NirDiamant/agents-towards-production/tree/main/tutorials/fastapi-agent"><img src="https://img.shields.io/badge/GitHub-View-blue" height="20"></a>
+    </td>
+  </tr>
+</table>
+
+### 🚀 Deployment
+
+<table width="100%">
+  <tr style="background-color:#f8f9fa">
+    <th width="30%">Tutorial</th>
+    <th width="50%">Description</th>
+    <th width="20%">View</th>
+  </tr>
+  <tr>
+    <td>Containerizing Agents with Docker</td>
+    <td>Containerize agents for portability and scalability. Learn foundational patterns for running agents in containers across environments.</td>
+    <td align="center">
+      <a href="https://github.com/NirDiamant/agents-towards-production/tree/main/tutorials/docker-intro"><img src="https://img.shields.io/badge/GitHub-View-blue" height="20"></a>
+    </td>
+  </tr>
+  <tr>
+    <td>On-Prem LLM Deployment with Ollama</td>
+    <td>Run and interact with large language models locally. Replace cloud APIs with on-prem models for privacy, cost control, and low-latency agent workflows.</td>
+    <td align="center">
+      <a href="https://github.com/NirDiamant/agents-towards-production/tree/main/tutorials/on-prem-llm-ollama"><img src="https://img.shields.io/badge/GitHub-View-blue" height="20"></a>
     </td>
   </tr>
 </table>
@@ -305,7 +310,7 @@ All knowledge is delivered through runnable tutorials covering orchestration, me
   </tr>
 </table>
 
-### 🔒 Security
+### 🔍 Tracing & Debugging
 
 <table width="100%">
   <tr style="background-color:#f8f9fa">
@@ -314,24 +319,10 @@ All knowledge is delivered through runnable tutorials covering orchestration, me
     <th width="20%">View</th>
   </tr>
   <tr>
-    <td>Real-Time Security Guardrails for Agents (Qualifire)</td>
-    <td>Block prompt injections, hallucinations, unsafe content, and enforce security policies in real time. Learn to implement robust guardrails for agent safety.</td>
+    <td>Agent Tracing & Debugging with LangSmith</td>
+    <td>Add comprehensive observability to AI systems. Capture detailed traces, decision points, and timing data to debug, monitor, and systematically improve agent performance.</td>
     <td align="center">
-      <a href="https://github.com/NirDiamant/agents-towards-production/tree/main/tutorials/agent-security-with-qualifire"><img src="https://img.shields.io/badge/GitHub-View-blue" height="20"></a>
-    </td>
-  </tr>
-  <tr>
-    <td>Comprehensive Agent Security (LlamaFirewall)</td>
-    <td>Apply comprehensive input, output, and tool security guardrails for agents. Covers prompt injection, behavior alignment, and tool access control.</td>
-    <td align="center">
-      <a href="https://github.com/NirDiamant/agents-towards-production/tree/main/tutorials/agent-security-with-llamafirewall"><img src="https://img.shields.io/badge/GitHub-View-blue" height="20"></a>
-    </td>
-  </tr>
-  <tr>
-    <td>Hands-On Agent Security Evaluation (Apex)</td>
-    <td>Hands-on prompt injection attacks, defenses, and automated security testing for AI agents.</td>
-    <td align="center">
-      <a href="tutorials/agent-security-apex"><img src="https://img.shields.io/badge/GitHub-View-blue" height="20"></a>
+      <a href="https://github.com/NirDiamant/agents-towards-production/tree/main/tutorials/tracing-with-langsmith"><img src="https://img.shields.io/badge/GitHub-View-blue" height="20"></a>
     </td>
   </tr>
 </table>
@@ -349,6 +340,23 @@ All knowledge is delivered through runnable tutorials covering orchestration, me
     <td>Automate agent evaluation with behavioral analysis, performance metrics, and actionable insights for improving agent quality.</td>
     <td align="center">
       <a href="https://github.com/NirDiamant/agents-towards-production/tree/main/tutorials/agent-evaluation-intellagent"><img src="https://img.shields.io/badge/GitHub-View-blue" height="20"></a>
+    </td>
+  </tr>
+</table>
+
+### 🖥️ UI & Frontend
+
+<table width="100%">
+  <tr style="background-color:#f8f9fa">
+    <th width="30%">Tutorial</th>
+    <th width="50%">Description</th>
+    <th width="20%">View</th>
+  </tr>
+  <tr>
+    <td>Building a Chatbot UI with Streamlit</td>
+    <td>Build a beginner-friendly chatbot web app with a chat interface, file upload, and session state for interactive agent demos.</td>
+    <td align="center">
+      <a href="https://github.com/NirDiamant/agents-towards-production/tree/main/tutorials/agent-with-streamlit-ui"><img src="https://img.shields.io/badge/GitHub-View-blue" height="20"></a>
     </td>
   </tr>
 </table>
@@ -382,7 +390,7 @@ Navigate to your target tutorial and set up the environment:
 ```bash
 # Example: Multi-tool agent orchestration
 cd tutorials/agentic-applications-by-xpander.ai
-pip install -r meeting-recorder-agent\requirements.txt
+pip install -r meeting-recorder-agent/requirements.txt
 ```
 
 **3. Deploy and Test**

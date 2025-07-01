@@ -6,7 +6,7 @@ This tutorial demonstrates how to integrate Qualifire into your AI agent workflo
 
 <img src="./assets/freddie-observer.png" alt="Freddie Observer" width="200px">
 
-This notebook walks you through integrating Qualifire with a LanGraph agent to achieve comprehensive observability, including logging, tracing, and insights via OpenTelemetry.
+This notebook walks you through integrating Qualifire with a LangGraph agent to achieve comprehensive observability, including logging, tracing, and insights via OpenTelemetry.
 
 ## Overview
 

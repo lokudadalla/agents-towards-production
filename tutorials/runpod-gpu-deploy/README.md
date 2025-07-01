@@ -230,7 +230,7 @@ docker build -t justinrunpod/agents:1.0 . --push --platform linux/amd64
 
 After selecting to use a Docker Image or a Github Repo, you will be asked to select the hardware you want to dynamically allocate.
 
-There are a pool of GPUs that RunPod provides, and RunPod will automatically rotate through your priority selection of GPUs based off of availability. 
+There are a pool of GPUs that RunPod provides, and RunPod will automatically rotate through your priority selection of GPUs based on availability. 
 
 ![example](assets/hardware_selection.png)
 ![example](assets/gpu_prioritization.png)
